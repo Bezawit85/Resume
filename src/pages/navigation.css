@@ -1,0 +1,37 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px; 
+    background-color: rgba(46, 59, 77, 0.5);
+    color: white;
+    align-items: center;
+    z-index: 1000; 
+}
+h2 {
+    margin-left: 20px;
+}
+ul {
+    margin-right: 20px;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.lists {
+    font-size: 18px;
+    font-weight: 500px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+ul li {
+    border-bottom: 3px solid transparent;
+    padding-bottom: 5px;
+}
+
+ul li:hover {
+    border-bottom-color: rgba(248, 147, 32, 0.87);
+}

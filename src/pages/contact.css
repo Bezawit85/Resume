@@ -1,0 +1,12 @@
+.contact {
+    font-family: "Gill Sans", sans-serif;
+    height: 600px;
+    padding-top: 120px;
+    background-color: #3a4656;
+  }
+
+a.facebook-link {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
